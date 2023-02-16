@@ -43,7 +43,7 @@ def brain_calc():
         else:
             i = 4
             print(
-                f"'{answer}' is wrong answer ;(." +
+                f"'{answer}' is wrong answer ;(. " +
                 "Correct answer was " + f"'{correct_answer}' ."
                 )
             print(f"Let's try again, {name}!")
