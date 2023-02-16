@@ -1,6 +1,6 @@
 import prompt
 import random
-from cli import welcome_user
+from brain_games.cli import welcome_user
 
 def return_correct_answer(first_number, second_number, operation):
     if operation == '+':

@@ -1,6 +1,6 @@
 import prompt
 import random
-from cli import welcome_user
+from brain_games.cli import welcome_user
 #----------------------------brain-even--------------------------------------------------
 def check_parity(number):
     if number % 2 == 0:
