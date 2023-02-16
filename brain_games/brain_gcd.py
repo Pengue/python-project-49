@@ -33,4 +33,3 @@ def brain_gcd():
     if i == 3:
         return print(f'Congratulations, {name}!')
     return
-brain_gcd()
