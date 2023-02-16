@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 from random import randint
 import prompt
-import brain_games.cli 
+import brain_games.cli
 
 
 def brain_progression():

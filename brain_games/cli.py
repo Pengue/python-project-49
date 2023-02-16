@@ -8,6 +8,7 @@ def welcome_user():
     print(f'Hello, {name}!')
     return name
 
+
 def game_over(answer, correct_answer, name):
     print(
         f"'{answer}' is wrong answer ;(. " +

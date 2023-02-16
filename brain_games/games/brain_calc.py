@@ -41,7 +41,7 @@ def brain_calc():
             i += 1
         else:
             brain_games.cli.game_over(answer, correct_answer, name)
-            break          
+            break
     if i == 3:
         return print(f'Congratulations, {name}!')
     return

@@ -28,7 +28,7 @@ def brain_gcd():
             print('Correct!')
             i += 1
         else:
-            brain_games.cli.game_over(answer, correct_answer, name) 
+            brain_games.cli.game_over(answer, correct_answer, name)
             break
     if i == 3:
         return print(f'Congratulations, {name}!')
