@@ -17,5 +17,11 @@ publish:
 package-install: 
 	python3 -m pip install --user dist/*.whl
 
+# Reinstall local package
 package-reinstall:
 	python3 -m pip install --force-reinstall  --user dist/*.whl
+
+# Run lint
+lint: 
+	poetry run flake8 brain_games
+	
