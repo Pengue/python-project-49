@@ -38,5 +38,8 @@ def brain_calc():
             i = 4
             print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}' .")
             print(f"Let's try again, {name}!")
+            break
     if i == 3:
         return print(f'Congratulations, {name}!')
+    return
+    

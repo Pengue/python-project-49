@@ -32,5 +32,7 @@ def brain_even():
         else:
             i = 4
             print(f"Let's try again, {name}!")
+            break
     if i == 3:
         return print(f'Congratulations, {name}!')
+    return
