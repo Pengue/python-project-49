@@ -22,7 +22,7 @@ def compare_answer(parity, answer):
     return False
 
 
-def play_strange_game():
+def brain_even():
     print('Welcome to the Brain Games!')
     name = welcome_user()
     print('Answer "yes" if the number is even, otherwise answer "no".')
