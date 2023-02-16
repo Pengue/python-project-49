@@ -21,13 +21,19 @@ def brain_gcd():
         first_number = random.randint(1, 100)
         second_number = random.randint(1, 100)
         correct_answer = math.gcd(first_number, second_number)
-        answer = prompt.string(f'Question: {first_number} {second_number}\nYour answer: ')
+        answer = prompt.string(
+                            f'Question: {first_number} ' +
+                            f'{second_number}\nYour answer: '
+                            )
         if check_answer_brain_calc(correct_answer, answer) is True:
             print('Correct!')
             i += 1
         else:
             i = 4
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}' .")
+            print(
+                f"'{answer}' is wrong answer ;(. " +
+                f"Correct answer was '{correct_answer}' ."
+                )
             print(f"Let's try again, {name}!")
             break
     if i == 3:

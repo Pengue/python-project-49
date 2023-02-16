@@ -30,8 +30,8 @@ def brain_prime():
         qustion = random.randint(1, 100)
         answer = prompt.string(f'Question: {qustion}\nYour answer: ')
         if compare_answer_brain_prime(is_prime(qustion), answer) is True:
-                print('Correct!')
-                i += 1
+            print('Correct!')
+            i += 1
         else:
             print(f"Let's try again, {name}!")
             break

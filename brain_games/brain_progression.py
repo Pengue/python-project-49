@@ -7,7 +7,7 @@ from brain_games.cli import welcome_user
 def brain_progression():
     print('Welcome to the Brain Games!')
     name = welcome_user()
-    print('What number is missing in the progression?') 
+    print('What number is missing in the progression?')
     a = 0
     while a < 3:
         length_progression = 10
@@ -31,8 +31,11 @@ def brain_progression():
             print('Correct!')
             a += 1
         else:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}' .")
+            print(
+                f"'{answer}' is wrong answer ;(." +
+                f" Correct answer was '{correct_answer}' ."
+                )
             print(f"Let's try again, {name}!")
             break
     if a == 3:
-        return print(f'Congratulations, {name}!')    
+        return print(f'Congratulations, {name}!')
