@@ -16,5 +16,6 @@ def game_over(answer, correct_answer, name):
         )
     print(f"Let's try again, {name}!")
 
+
 def lets_try_again(name):
     print(f"Let's try again, {name}!")
