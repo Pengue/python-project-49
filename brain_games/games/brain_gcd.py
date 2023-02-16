@@ -17,7 +17,7 @@ def brain_gcd():
         answer = prompt.string(
                             f'Question: {first_number} ' +
                             f'{second_number}\nYour answer: '
-                            )
+                              )
         if brain_games.games.brain_calc.check_answer(
                                                     correct_answer, answer
                                                     ) is True:

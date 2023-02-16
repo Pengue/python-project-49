@@ -25,10 +25,7 @@ def brain_even():
     while i < 3:
         first_qustion = random.randint(1, 100)
         answer = prompt.string(f'Question: {first_qustion}\nYour answer: ')
-        if compare_answer(
-                        check_parity(first_qustion),
-                        answer
-                         ) is True:
+        if compare_answer(check_parity(first_qustion), answer) is True:
             print('Correct!')
             i += 1
         else:
