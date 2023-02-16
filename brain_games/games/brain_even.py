@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import prompt
 import random
-from brain_games.cli import welcome_user
+import brain_games.cli
 
 
 def check_parity(number):
@@ -19,7 +19,7 @@ def compare_answer_brain_even(parity, answer):
 
 
 def brain_even():
-    name = welcome_user()
+    name = brain_games.cli.welcome_user()
     print('Answer "yes" if the number is even, otherwise answer "no".')
     i = 0
     while i < 3:
@@ -32,7 +32,7 @@ def brain_even():
             print('Correct!')
             i += 1
         else:
-            print(f"Let's try again, {name}!")
+            brain_games.cli.lets_try_again(name)
             break
     if i == 3:
         return print(f'Congratulations, {name}!')
