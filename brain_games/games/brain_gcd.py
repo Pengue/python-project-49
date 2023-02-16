@@ -2,7 +2,7 @@
 import math
 import prompt
 import random
-from brain_games.cli import welcome_user
+import brain_games.cli
 
 
 def check_answer_brain_calc(correct_answer, answer):
@@ -13,8 +13,7 @@ def check_answer_brain_calc(correct_answer, answer):
 
 
 def brain_gcd():
-    print('Welcome to the Brain Games!')
-    name = welcome_user()
+    name = brain_games.cli.welcome_user()
     print('Find the greatest common divisor of given numbers.')
     i = 0
     while i < 3:
@@ -29,12 +28,7 @@ def brain_gcd():
             print('Correct!')
             i += 1
         else:
-            i = 4
-            print(
-                f"'{answer}' is wrong answer ;(. " +
-                f"Correct answer was '{correct_answer}' ."
-                )
-            print(f"Let's try again, {name}!")
+            brain_games.cli.game_over(answer, correct_answer, name) 
             break
     if i == 3:
         return print(f'Congratulations, {name}!')

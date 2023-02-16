@@ -19,7 +19,6 @@ def compare_answer_brain_even(parity, answer):
 
 
 def brain_even():
-    print('Welcome to the Brain Games!')
     name = welcome_user()
     print('Answer "yes" if the number is even, otherwise answer "no".')
     i = 0
@@ -33,7 +32,6 @@ def brain_even():
             print('Correct!')
             i += 1
         else:
-            i = 4
             print(f"Let's try again, {name}!")
             break
     if i == 3:

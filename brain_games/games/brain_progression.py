@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
 from random import randint
 import prompt
-from brain_games.cli import welcome_user
+import brain_games.cli 
 
 
 def brain_progression():
-    print('Welcome to the Brain Games!')
-    name = welcome_user()
+    name = brain_games.cli.welcome_user()
     print('What number is missing in the progression?')
     a = 0
     while a < 3:
@@ -31,11 +30,7 @@ def brain_progression():
             print('Correct!')
             a += 1
         else:
-            print(
-                f"'{answer}' is wrong answer ;(." +
-                f" Correct answer was '{correct_answer}' ."
-                )
-            print(f"Let's try again, {name}!")
+            brain_games.cli.game_over(answer, correct_answer, name)
             break
     if a == 3:
         return print(f'Congratulations, {name}!')

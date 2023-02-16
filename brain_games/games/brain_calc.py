@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import prompt
 import random
-from brain_games.cli import welcome_user
+import brain_games.cli
 
 
 def return_correct_answer(first_number, second_number, operation):
@@ -21,8 +21,7 @@ def check_answer_brain_calc(correct_answer, answer):
 
 
 def brain_calc():
-    print('Welcome to the Brain Games!')
-    name = welcome_user()
+    name = brain_games.cli.welcome_user()
     print('What is the result of the expression?')
     i = 0
     while i < 3:
@@ -41,13 +40,8 @@ def brain_calc():
             print('Correct!')
             i += 1
         else:
-            i = 4
-            print(
-                f"'{answer}' is wrong answer ;(. " +
-                "Correct answer was " + f"'{correct_answer}' ."
-                )
-            print(f"Let's try again, {name}!")
-            break
+            brain_games.cli.game_over(answer, correct_answer, name)
+            break          
     if i == 3:
         return print(f'Congratulations, {name}!')
     return

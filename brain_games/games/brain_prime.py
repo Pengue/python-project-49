@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import prompt
 import random
-from brain_games.cli import welcome_user
+import brain_games.cli
 
 
 def is_prime(a):
@@ -22,8 +22,7 @@ def compare_answer_brain_prime(parity, answer):
 
 
 def brain_prime():
-    print('Welcome to the Brain Games!')
-    name = welcome_user()
+    name = brain_games.cli.welcome_user()
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
     i = 0
     while i < 3:
