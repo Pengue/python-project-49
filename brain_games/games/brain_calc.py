@@ -31,7 +31,7 @@ def brain_calc():
         correct_answer = return_correct_answer(
                                             first_number,
                                             second_number, operation
-                                            )
+                                              )
         answer = prompt.string(
                             f'Question: {first_number}' +
                             f' {operation} {second_number}\nYour answer: '

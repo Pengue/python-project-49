@@ -28,7 +28,7 @@ def brain_even():
         if compare_answer(
                         check_parity(first_qustion),
                         answer
-                        ) is True:
+                         ) is True:
             print('Correct!')
             i += 1
         else:
