@@ -7,6 +7,7 @@ def welcome_user():
     print(f'Hellow, {name}!')
     return name
 
+
 def check_parity(number):
     if number % 2 == 0:
         return True
@@ -29,13 +30,11 @@ def play_strange_game():
     while i < 3:
         first_qustion = random.randint(1,100)
         answer = prompt.string(f'Question: {first_qustion}\nYour answer: ')
-        if compare_answer(check_parity(first_qustion), answer) == True:
+        if compare_answer(check_parity(first_qustion), answer) is True:
             print('Correct!')
-            i += 1 
-        else: 
+            i += 1
+        else:
             i = 4
             print(f"Let's try again, {name}!")
-    if i == 3: 
+    if i == 3:
         return print(f'Congratulations, {name}!')
-
-    
