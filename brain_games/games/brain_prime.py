@@ -24,9 +24,9 @@ def brain_prime():
     while i < 3:
         qustion = random.randint(1, 100)
         answer = prompt.string(f'Question: {qustion}\nYour answer: ')
-        if brain_games.games.brain_even.compare_answer_brain_prime(
-                                                                is_prime(qustion), answer
-                                                                ) is True:
+        if brain_games.games.brain_even.compare_answer(
+                                                    is_prime(qustion), answer
+                                                    ) is True:
             print('Correct!')
             i += 1
         else:
