@@ -32,7 +32,7 @@ def brain_prime():
             print('Correct!')
             i += 1
         else:
-            print(f"Let's try again, {name}!")
+            brain_games.cli.lets_try_again(name)
             break
     if i == 3:
         return print(f'Congratulations, {name}!')
