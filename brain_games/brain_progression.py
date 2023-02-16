@@ -4,7 +4,6 @@ import prompt
 from brain_games.cli import welcome_user
 
 
-
 def brain_progression():
     print('Welcome to the Brain Games!')
     name = welcome_user()
@@ -36,8 +35,4 @@ def brain_progression():
             print(f"Let's try again, {name}!")
             break
     if a == 3:
-        return print(f'Congratulations, {name}!')
-
-brain_progression()
-    
-
+        return print(f'Congratulations, {name}!')    
