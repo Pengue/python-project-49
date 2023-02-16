@@ -3,13 +3,7 @@ import math
 import prompt
 import random
 import brain_games.cli
-
-
-def check_answer_brain_calc(correct_answer, answer):
-    if str(correct_answer) == (answer):
-        return True
-    else:
-        return False
+import brain_games.games.brain_calc
 
 
 def brain_gcd():
@@ -24,7 +18,9 @@ def brain_gcd():
                             f'Question: {first_number} ' +
                             f'{second_number}\nYour answer: '
                             )
-        if check_answer_brain_calc(correct_answer, answer) is True:
+        if brain_games.games.brain_calc.check_answer(
+                                                    correct_answer, answer
+                                                    ) is True:
             print('Correct!')
             i += 1
         else:
