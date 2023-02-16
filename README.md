@@ -8,3 +8,5 @@
 [Trying to play brain-gcd](https://asciinema.org/a/q5DAxTrbReA7kGMzEffycKXIX)
 
 [Trying to play brain-progression](https://asciinema.org/a/Qr98DV8wjJmKJqIbiAMkdmOLh)
+
+[Trying to play brain-prime](https://asciinema.org/a/RaWa651VHL2nhUWsqSNXD2Yuv)
