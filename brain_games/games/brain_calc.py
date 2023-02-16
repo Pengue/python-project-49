@@ -34,7 +34,7 @@ def brain_calc():
                                             )
         answer = prompt.string(
                             f'Question: {first_number}' +
-                            f'{operation} {second_number}\nYour answer: '
+                            f' {operation} {second_number}\nYour answer: '
                             )
         if check_answer_brain_calc(correct_answer, answer) is True:
             print('Correct!')
