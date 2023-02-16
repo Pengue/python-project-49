@@ -15,9 +15,9 @@ def check_parity(number):
 
 
 def compare_answer(parity, answer):
-    if parity == True and answer == 'yes':
+    if parity is True and answer == 'yes':
         return True
-    elif parity == False and answer == 'no':
+    elif parity is False and answer == 'no':
         return True
     return False
 
