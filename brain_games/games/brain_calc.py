@@ -13,7 +13,7 @@ def return_correct_answer(first_number, second_number, operation):
         return first_number * second_number
 
 
-def check_answer_brain_calc(correct_answer, answer):
+def check_answer(correct_answer, answer):
     if str(correct_answer) == (answer):
         return True
     else:
@@ -36,7 +36,7 @@ def brain_calc():
                             f'Question: {first_number}' +
                             f' {operation} {second_number}\nYour answer: '
                             )
-        if check_answer_brain_calc(correct_answer, answer) is True:
+        if check_answer(correct_answer, answer) is True:
             print('Correct!')
             i += 1
         else:
