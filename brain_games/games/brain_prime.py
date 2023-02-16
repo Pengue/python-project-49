@@ -4,6 +4,7 @@ import random
 import brain_games.cli
 import brain_games.games.brain_even
 
+
 def is_prime(a):
     if a % 2 == 0:
         return a == 2
@@ -11,10 +12,6 @@ def is_prime(a):
     while d * d <= a and a % d != 0:
         d += 2
     return d * d > a
-
-
-
-
 
 
 def brain_prime():
