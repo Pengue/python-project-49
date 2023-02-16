@@ -28,7 +28,7 @@ def play_strange_game():
     print('Answer "yes" if the number is even, otherwise answer "no".')
     i = 0
     while i < 3:
-        first_qustion = random.randint(1,100)
+        first_qustion = random.randint(1, 100)
         answer = prompt.string(f'Question: {first_qustion}\nYour answer: ')
         if compare_answer(check_parity(first_qustion), answer) is True:
             print('Correct!')
