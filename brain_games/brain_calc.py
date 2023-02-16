@@ -14,7 +14,7 @@ def return_correct_answer(first_number, second_number, operation):
 
 
 def check_answer_brain_calc(correct_answer, answer):
-    if int(correct_answer) == int(answer):
+    if str(correct_answer) == (answer):
         return True
     else:
         return False

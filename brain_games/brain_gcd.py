@@ -6,7 +6,7 @@ from brain_games.cli import welcome_user
 
 
 def check_answer_brain_calc(correct_answer, answer):
-    if int(correct_answer) == int(answer):
+    if str(correct_answer) == (answer):
         return True
     else:
         return False
@@ -31,3 +31,4 @@ def brain_gcd():
             print(f"Let's try again, {name}!")
     if i == 3:
         return print(f'Congratulations, {name}!')
+brain_gcd()
