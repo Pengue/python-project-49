@@ -6,3 +6,5 @@
 [Trying to play brain-calc](https://asciinema.org/a/4C6Nql1hhRTGrUfkN31uQD6eh)
 
 [Trying to play brain-gcd](https://asciinema.org/a/q5DAxTrbReA7kGMzEffycKXIX)
+
+[Trying to play brain-progression](https://asciinema.org/a/Qr98DV8wjJmKJqIbiAMkdmOLh)
