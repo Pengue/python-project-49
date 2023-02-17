@@ -12,8 +12,7 @@ def welcome_user():
 def game_over(answer, correct_answer, name):
     print(
         f"'{answer}' is wrong answer ;(. "
-        + "Correct answer was " + f"'{correct_answer}' ."
-         )
+        + "Correct answer was " + f"'{correct_answer}' .")
     print(f"Let's try again, {name}!")
 
 
