@@ -28,14 +28,10 @@ def brain_calc():
         first_number = random.randint(1, 100)
         second_number = random.randint(1, 100)
         operation = random.choice(['+', '-', '*'])
-        correct_answer = return_correct_answer(
-                                            first_number,
-                                            second_number, operation
-                                              )
-        answer = prompt.string(
-                            f'Question: {first_number}'
-                            + f' {operation} {second_number}\nYour answer: '
-                              )
+        correct_answer = return_correct_answer(first_number,
+                                               second_number, operation)
+        answer = prompt.string(f'Question: {first_number} '
+                               + f'{operation} {second_number}\nYour answer: ')
         if check_answer(correct_answer, answer) is True:
             print('Correct!')
             i += 1
