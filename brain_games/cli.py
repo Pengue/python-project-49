@@ -9,10 +9,9 @@ def welcome_user():
     return name
 
 
-def game_over(answer, correct_answer, name):
+def game_over(answer, right_answer, name):
     print(
-        f"'{answer}' is wrong answer ;(. "
-        + "Correct answer was " + f"'{correct_answer}' .")
+        f"'{answer}' is wrong answer ;(. Correct answer was '{right_answer}'.")
     print(f"Let's try again, {name}!")
 
 
