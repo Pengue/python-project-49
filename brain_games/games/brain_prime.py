@@ -8,6 +8,8 @@ import brain_games.games.brain_even
 def is_prime(a):
     if a % 2 == 0:
         return a == 2
+    elif a == 1:
+        return False
     d = 3
     while d * d <= a and a % d != 0:
         d += 2
