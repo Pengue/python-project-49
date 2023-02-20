@@ -9,25 +9,22 @@ def is_prime(a):
     if a % 2 == 0:
         return a == 2
     elif a == 1:
-        return False
+        return 'no'
     d = 3
     while d * d <= a and a % d != 0:
         d += 2
-    return d * d > a
+    if d * d > a is True:
+        return 'yes'
+    else: 
+        return 'no'
 
 
-def brain_prime():
-    name = brain_games.cli.welcome_user()
-    print('Answer "yes" if given number is prime. Otherwise answer "no".')
-    i = 0
-    while i < 3:
-        qustion = random.randint(1, 100)
-        answer = prompt.string(f'Question: {qustion}\nYour answer: ')
-        if compare_answer(is_prime(qustion), answer) is True:
-            print('Correct!')
-            i += 1
-        else:
-            brain_games.cli.lets_try_again(name)
-            break
-    if i == 3:
-        return print(f'Congratulations, {name}!')
+def sules():
+    return('Answer "yes" if given number is prime. Otherwise answer "no".')
+
+
+def run():
+    question = random.randint(1, 100)
+    correct_answer = compare_answer(is_prime(question))
+    return question, correct_answer
+    
