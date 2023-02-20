@@ -19,6 +19,10 @@ def rules():
 
 
 def run():
-    question = random.randint(1, 100)
+    choice = [1, 2, 3, 4, 5, 7, 9, 11, 13, 15, 17,
+              18, 19, 21, 22, 23, 29, 31, 37, 38, 39, 40, 41,
+              43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 90,
+              91, 92, 93, 94, 95, 96, 97, 98, 99, 100]
+    question = random.choice(choice)
     correct_answer = compare_answer(is_prime(question))
     return question, correct_answer
