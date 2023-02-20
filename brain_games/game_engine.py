@@ -8,8 +8,7 @@ max_score = 3
 
 def run_game(game):
     name = brain_games.cli.welcome_user()
-    rules = game.rules()
-    print(rules)
+    print(game.rules)
     score = 0
     while score < max_score:
         question, correct_answer = game.run()

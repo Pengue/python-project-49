@@ -2,8 +2,7 @@
 from random import randint
 
 
-def rules():
-    return 'What number is missing in the progression?'
+rules = 'What number is missing in the progression?'
 
 
 def run():
@@ -23,4 +22,4 @@ def run():
             question += '..'
             correct_answer = str(start + (step * i))
             i += 1
-    return question, correct_answer
+    return question, correct_answer, rules

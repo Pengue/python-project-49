@@ -2,6 +2,9 @@
 import random
 
 
+rules = 'Answer "yes" if the number is even, otherwise answer "no".'
+
+
 def check_parity(number):
     if number % 2 == 0:
         return True
@@ -15,11 +18,7 @@ def compare_answer(parity):
         return 'no'
 
 
-def rules():
-    return 'Answer "yes" if the number is even, otherwise answer "no".'
-
-
 def run():
     qustion = random.randint(1, 100)
     correct_answer = compare_answer(check_parity(qustion))
-    return qustion, correct_answer
+    return qustion, correct_answer, rules
