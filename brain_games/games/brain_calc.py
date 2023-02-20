@@ -12,6 +12,10 @@ def return_correct_answer(first_number, second_number, operation):
         return first_number * second_number
 
 
+def rules():
+    return 'What is the result of the expression?'
+
+
 def run():
     
     first_number = random.randint(1, 100)

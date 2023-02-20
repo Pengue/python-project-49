@@ -16,6 +16,9 @@ def compare_answer(parity):
         return 'no'
     
 
+def rules():
+    return 'Answer "yes" if the number is even, otherwise answer "no".'
+
 
 def run():
     qustion = random.randint(1, 100)
