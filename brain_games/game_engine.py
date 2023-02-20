@@ -11,7 +11,7 @@ def run_game(game):
     score = 0
     while score < max_score:
         question, correct_answer = game.run()
-        print(question)
+        print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
         if answer != str(correct_answer):
             print(
