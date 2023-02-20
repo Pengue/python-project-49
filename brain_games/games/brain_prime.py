@@ -13,13 +13,10 @@ def is_prime(a):
     d = 3
     while d * d <= a and a % d != 0:
         d += 2
-    if d * d > a is True:
-        return 'yes'
-    else: 
-        return 'no'
+    return d * d > a
 
 
-def sules():
+def rules():
     return('Answer "yes" if given number is prime. Otherwise answer "no".')
 
 
