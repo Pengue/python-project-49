@@ -1,12 +1,17 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Pengue/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/Pengue/python-project-49/actions)
 
-[Installing package and trying to play brain-even](https://asciinema.org/a/FYs4kTylq50j4bQAPUdSxaFmW)
+!Installing package and playing in brain-even
+<script async id="asciicast-560367" src="https://asciinema.org/a/560367.js"></script>
 
-[Trying to play brain-calc](https://asciinema.org/a/G2ROXB5IEqyYZgdwlGdhI5Y2J)
+!Playing in brain-calc
+<script async id="asciicast-560369" src="https://asciinema.org/a/560369.js"></script>
 
-[Trying to play brain-gcd](https://asciinema.org/a/2dRF8oOp25gubuzQNq6WGzwGI)
+!Playing in brain-gcd
+<script async id="asciicast-560376" src="https://asciinema.org/a/560376.js"></script>
 
-[Trying to play brain-progression](https://asciinema.org/a/Qr98DV8wjJmKJqIbiAMkdmOLh)
+!Playing in brain-progression
+<script async id="asciicast-560350" src="https://asciinema.org/a/560350.js"></script>
 
-[Trying to play brain-prime](https://asciinema.org/a/RaWa651VHL2nhUWsqSNXD2Yuv)
+!Playing in brain-prime
+<script async id="asciicast-560358" src="https://asciinema.org/a/560358.js"></script>
