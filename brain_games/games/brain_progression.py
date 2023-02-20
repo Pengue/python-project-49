@@ -6,7 +6,7 @@ rules = 'What number is missing in the progression?'
 
 
 def run():
-    length_progression = 10
+    length_progression = randint(5, 10)
     start = randint(1, 10)
     step = randint(1, 10)
     secret_number = randint(0, length_progression - 1)
