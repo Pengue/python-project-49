@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 import prompt
 import brain_games.cli
-from brain_games.games import game
 
 max_score = 3
 
