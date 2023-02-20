@@ -25,4 +25,4 @@ def run():
               89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]
     question = random.choice(choice)
     correct_answer = compare_answer(is_prime(question))
-    return question, correct_answer, rules
+    return question, correct_answer

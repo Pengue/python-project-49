@@ -22,4 +22,4 @@ def run():
             question += '..'
             correct_answer = str(start + (step * i))
             i += 1
-    return question, correct_answer, rules
+    return question, correct_answer

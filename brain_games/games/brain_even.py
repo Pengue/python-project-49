@@ -21,4 +21,4 @@ def compare_answer(parity):
 def run():
     qustion = random.randint(1, 100)
     correct_answer = compare_answer(check_parity(qustion))
-    return qustion, correct_answer, rules
+    return qustion, correct_answer

@@ -11,4 +11,4 @@ def run():
     second_number = random.randint(1, 100)
     correct_answer = math.gcd(first_number, second_number)
     question = f'{first_number} {second_number}'
-    return question, correct_answer, rules
+    return question, correct_answer
