@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 from random import randint
-import prompt
-import brain_games.cli
 
 
 def rules():
@@ -26,9 +24,3 @@ def run():
             correct_answer = str(start + (step * i))
             i += 1
     return question, correct_answer
-
-
-
-
-
-

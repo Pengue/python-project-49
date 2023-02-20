@@ -2,7 +2,9 @@
 import prompt
 import brain_games.cli
 
+
 max_score = 3
+
 
 def run_game(game):
     name = brain_games.cli.welcome_user()
@@ -22,5 +24,4 @@ def run_game(game):
             return
         print('Correct!')
         score += 1
-    
     print(f'Congratulations, {name}!')

@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
-import prompt
 import random
-import brain_games.cli
 from brain_games.games.brain_even import compare_answer
 
 
@@ -17,11 +15,10 @@ def is_prime(a):
 
 
 def rules():
-    return('Answer "yes" if given number is prime. Otherwise answer "no".')
+    return 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def run():
     question = random.randint(1, 100)
     correct_answer = compare_answer(is_prime(question))
     return question, correct_answer
-    
