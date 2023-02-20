@@ -8,7 +8,7 @@ def rules():
     return 'Find the greatest common divisor of given numbers.'
 
 
-def brain_gcd():
+def run():
 
     first_number = random.randint(1, 100)
     second_number = random.randint(1, 100)
