@@ -4,7 +4,11 @@ import prompt
 import brain_games.cli
 
 
-def make_qustion():
+def rules():
+    return 'What number is missing in the progression?'
+
+
+def run():
     length_progression = 10
     start = randint(1, 10)
     step = randint(1, 10)
@@ -24,19 +28,7 @@ def make_qustion():
     return question, correct_answer
 
 
-def brain_progression():
-    name = brain_games.cli.welcome_user()
-    print('What number is missing in the progression?')
-    a = 0
-    while a < 3:
-        make_qustion()
-        question, correct_answer = make_qustion()
-        answer = prompt.string(f'Question: {question}\nYour answer: ')
-        if answer == str(correct_answer):
-            print('Correct!')
-            a += 1
-        else:
-            brain_games.cli.game_over(answer, correct_answer, name)
-            break
-    if a == 3:
-        return print(f'Congratulations, {name}!')
+
+
+
+
