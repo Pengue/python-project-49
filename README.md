@@ -14,4 +14,4 @@
 <script async id="asciicast-560350" src="https://asciinema.org/a/560350.js"></script>
 
 [!Playing in brain-prime]
-<script async id="asciicast-560358" src="https://asciinema.org/a/560358.js"></script>
+<a href="https://asciinema.org/a/560358" target="_blank"><img src="https://asciinema.org/a/560358.svg" /></a>
