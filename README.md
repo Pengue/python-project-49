@@ -1,6 +1,6 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Pengue/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/Pengue/python-project-49/actions)
-[![Maintainability](https://api.codeclimate.com/v1/badges/6c8a2158f9ef1a05e2ba/maintainability)](https://codeclimate.com/github/Pengue/python-project-49)
+[![Maintainability](https://api.codeclimate.com/v1/badges/26cbe53cff2aa1026fef/maintainability)](https://codeclimate.com/github/Pengue/python-project-49)
 
 ## Installing package and playing in brain-even
 <a href="https://asciinema.org/a/560367" target="_blank"><img src="https://asciinema.org/a/560367.svg" /></a>
