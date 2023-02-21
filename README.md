@@ -6,7 +6,7 @@
 
 Installation:
 
-`pip install -i https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ brain-games-by-pengue`
+`pip install -i https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ hexlet-code`
 
 ## Installing package and playing in brain-even
 <a href="https://asciinema.org/a/560367" target="_blank"><img src="https://asciinema.org/a/560367.svg" /></a>
