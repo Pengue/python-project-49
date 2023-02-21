@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 import random
 from brain_games.games.brain_even import compare_answer
 
