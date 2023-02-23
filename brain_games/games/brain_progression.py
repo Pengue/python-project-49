@@ -11,7 +11,7 @@ def generate_round():
     secret_number = randint(0, length_progression - 1)
     question = ' '
     i = 0
-    progression = []
+    progression = ()
     while i < length_progression:
         if i != secret_number:
             progression += (start + (step * i))
