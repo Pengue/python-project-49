@@ -1,7 +1,7 @@
 import random
 
 
-rules = 'Answer "yes" if the number is even, otherwise answer "no".'
+RULES = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def check_parity(number):
@@ -17,7 +17,7 @@ def compare_answer(parity):
         return 'no'
 
 
-def run():
+def generate_round():
     qustion = random.randint(1, 100)
     correct_answer = compare_answer(check_parity(qustion))
     return qustion, correct_answer

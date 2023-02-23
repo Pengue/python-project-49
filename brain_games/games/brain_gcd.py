@@ -2,10 +2,10 @@ import math
 import random
 
 
-rules = 'Find the greatest common divisor of given numbers.'
+RULES = 'Find the greatest common divisor of given numbers.'
 
 
-def run():
+def generate_round():
     first_number = random.randint(1, 100)
     second_number = random.randint(1, 100)
     correct_answer = math.gcd(first_number, second_number)
