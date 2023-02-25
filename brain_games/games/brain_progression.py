@@ -9,16 +9,13 @@ def generate_round():
     start = randint(1, 10)
     step = randint(1, 10)
     secret_number = randint(0, length_progression - 1)
-    question = ''
-    i = 0
-    while i < length_progression:
-        if question:
-            question += ' '
-        if i != secret_number:
-            question = question + str((start + (step * i)))
-            i += 1
-        else:
-            question += '..'
-            correct_answer = str(start + (step * i))
-            i += 1
+    question = ' '
+    progression = [f'{start}', f'{start + step}', f'{start + step * 2}', 
+                   f'{start + step * 3}', f'{start + step * 4}', f'{start + step * 5}', 
+                   f'{start + step * 6}', f'{start + step * 7}', f'{start + step * 8}', 
+                   f'{start + step * 9}']
+    progression[secret_number] = '..'
+    question = question.join(progression)
+    correct_answer = str(start + (step * secret_number))
     return question, correct_answer
+generate_round()
